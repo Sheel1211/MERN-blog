@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import ArticlesList from './pages/ArticlesList'
 import Article from './pages/Article'
+import NotFound from './pages/NotFound'
 
 //Components
 import Navbar from './components/Navbar'
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/articles-list' element={<ArticlesList />} />
           <Route path='/article/:name' element={<Article />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         
     </div>

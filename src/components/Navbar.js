@@ -12,11 +12,9 @@ return(
                 About
                 </Link>
                 <Link to="/articles-list" className="pl-6 pr-8">
-                ArticleList
+                Articles
                 </Link>
-                <Link to="/Article" className="pl-6 pr-8">
-                Article
-                </Link>
+                
             </li>
         </ul>
     </nav>  
